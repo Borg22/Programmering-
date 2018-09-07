@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Programerin {
 
@@ -5,6 +6,13 @@ public class Programerin {
 		
 		Scanner input = new Scanner(System.in);
 		
+		System.out.println("Vad heter du?");
+				
+		String name = input.nextLine() ;
+		
+		System.out.println(name);
+		
+				
 				
 			
 	}
