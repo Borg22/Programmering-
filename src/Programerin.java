@@ -28,6 +28,8 @@ public class Programerin {
 		
 		String Postnummer = input.nextLine();
 		
+		
+		
 		System.out.print(Postnummer);
 		
 		System.out.print("Vad är ditt mobilnummer?");
@@ -41,7 +43,8 @@ public class Programerin {
 				
 				
 			
-	}
+	} // END MAIN
+	
 
 
 
