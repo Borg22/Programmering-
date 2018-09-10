@@ -18,6 +18,12 @@ public class Programerin {
 		
 		System.out.println(adress);
 		
+		System.out.print(" Vad är ditt postnummer?");
+		
+		String Postnummer = input.nextLine();
+		
+		System.out.print(Postnummer);
+		
 		
 				
 				
