@@ -12,6 +12,12 @@ public class Programerin {
 		
 		System.out.println(name);
 		
+		System.out.print("Hur gammal är du?");
+		
+		String gammal =input.nextLine();
+		
+		System.out.print(gammal);
+		
 		System.out.print("Vad är din adress?");
 		
 		String adress = input.nextLine();
@@ -23,6 +29,13 @@ public class Programerin {
 		String Postnummer = input.nextLine();
 		
 		System.out.print(Postnummer);
+		
+		System.out.print("Vad är ditt mobilnummer?");
+		
+		String Mobilnummer =input.nextLine();
+		
+		System.out.print(Mobilnummer);
+		
 		
 		
 				
