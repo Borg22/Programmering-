@@ -7,6 +7,8 @@ public class tjena {
 		
 		Scanner input = new Scanner(System.in);
 		
+		System.out.println("Skriv in 10 heltal:");
+		
 		
 		
 		//Läs in tal 1
@@ -31,12 +33,10 @@ public class tjena {
 		int tal10 = input.nextInt() ;
 		
 		
-		int max = 9999999 ;
-		int min = -9999999 ;
-		int medel = 0;
+		
 		int summa = tal1 + tal2 + tal3 + tal4 + tal5 + tal6 +tal7 + tal8 + tal9 + tal10 ;
 		
-		double medel1 = summa / 10.0;  // 10
+		double medel = summa / 10.0;  // 10
 		
 		int stor = tal1; // 1
 		
@@ -78,9 +78,9 @@ public class tjena {
 
 	
 		
-		System.out.println("Minsta" + min);
-		System.out.println("Medel" + medel);
-		System.out.println("Största" + max);
+		//System.out.println("Minsta" + minst);
+		System.out.println("Medel: " + medel);
+		System.out.println("Största: " + stor);
 		
 		
 		
