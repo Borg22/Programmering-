@@ -7,13 +7,6 @@ public class tjena {
 		
 		Scanner input = new Scanner(System.in);
 		
-		int max = 9999999 ;
-		int min = -9999999 ; 
-		int medel = 
-		int summa = tal1 + tal2 + tal3 + tal4 + tal5 + tal6 + tal7 + tal8 + tal9 + tal10
-		
-		dubble medel1 = summa / 5; // 5
-		dubble medel2 = summa /5,0 ; // 5,6
 		
 		
 		//Läs in tal 1
@@ -38,9 +31,57 @@ public class tjena {
 		int tal10 = input.nextInt() ;
 		
 		
+		int max = 9999999 ;
+		int min = -9999999 ;
+		int medel = 0;
+		int summa = tal1 + tal2 + tal3 + tal4 + tal5 + tal6 +tal7 + tal8 + tal9 + tal10 ;
+		
+		double medel1 = summa / 10.0;  // 10
+		
+		int stor = tal1; // 1
+		
+		if (stor <= tal2) { // 2
+			stor = tal2;
+		}
+		if (stor <= tal3) { // 3
+			stor = tal3;
+		}
+		
+		if (stor <= tal4) { // 4
+			stor = tal4;
+		}
+		
+		if (stor <= tal5) { // 5
+			stor = tal5;
+		}
+		
+		if (stor <= tal6) { // 6
+			stor = tal6;
+		}
+		
+		if (stor <= tal7) { // 7
+			stor = tal7;
+		}
+		
+		if (stor <= tal8) { // 8
+			stor = tal8;
+		}
+		
+		if (stor <= tal9) { // 9
+			stor = tal9;
+		}
+		if (stor <= tal10) { // 10
+			stor = tal10;
+			
+		}
+			
+
+	
+		
 		System.out.println("Minsta" + min);
 		System.out.println("Medel" + medel);
 		System.out.println("Största" + max);
+		
 		
 		
 		
