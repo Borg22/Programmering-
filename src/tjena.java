@@ -74,11 +74,41 @@ public class tjena {
 			stor = tal10;
 			
 		}
+		
+		int minsta = tal1; // 1
+		
+		if ( minsta >= tal2) {
+			 minsta = tal2;
+		}
+		if ( minsta >= tal3) {
+			minsta = tal3;
+		}
+		if ( minsta >= tal4) {
+			minsta = tal4;
+		}
+		if ( minsta >= tal5) {
+			minsta = tal5;
+		}		
+		if ( minsta >= tal6) {
+			minsta = tal6;
+		}			
+		if ( minsta >= tal7) {
+			minsta = tal7;
+		}
+		if ( minsta >= tal8) {
+			minsta = tal8;
+		}
+		if ( minsta >= tal9) {
+			minsta = tal9;
+		}
+		if ( minsta >= tal10) {
+			minsta = tal10;
+		}
 			
 
 	
 		
-		//System.out.println("Minsta" + minst);
+		System.out.println("Minsta: " +  minsta);
 		System.out.println("Medel: " + medel);
 		System.out.println("Största: " + stor);
 		
