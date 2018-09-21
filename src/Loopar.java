@@ -7,12 +7,11 @@ public static void main(String[] args) {
 		
 		Scanner input = new Scanner(System.in);
 		
-	int summa = 0	;
 		
-	for (int i = 0; i < 100; i +=1) {
-		summa = summa + i;
+	for (int i = 25; i <= 50; i++) {
 		
-		System.out.println(summa);
+		System.out.println(i);
 	}
-}
+	
+		}
 }
