@@ -10,7 +10,7 @@ public class R2 {
 	    
 	    input.close();
 	    
-	    System.outprinteln(S * 2 - R1);
+	    System.out.println(S * 2 - R1);
 		
 		
 	}
