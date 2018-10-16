@@ -17,4 +17,12 @@ public class steg3 {
 
 
 }
+    public static double volume(double radius) {
+        
+        double volume = radius * radius * radius * 3.14 * 4 / 3;
+        
+        
+        return volume;
+
 	}
+}
